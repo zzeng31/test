@@ -6,110 +6,14 @@ const UserForm = ({ onAddUser }) => {
   const [lastName, setLastName] = useState('');
   const [phone, setPhone] = useState('');
   return (
-    <form
-      onSubmit={(e) => {
-        e.preventDefault();
-        onAddUser({
-          firstName,
-          lastName,
-          email,
-        });
-      }}
-    >
-      {/* <div>
-        <label>FirstName</label>
-        <input
-          value={firstName}
-          onChange={(e) => setFirstName(e.target.value)}
-          type="text"
-        />
-      </div>
-      <div>
-        <label>LastName</label>
-        <input
-          value={lastName}
-          onChange={(e) => setLastName(e.target.value)}
-          type="text"
-        />
-      </div> */}
-      {/* <div>
-        <label>Email</label>
-        <input
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          type="email"
-        />
-      </div>
-      <div>
-        <label>LastName</label>
-        <input
-          value={lastName}
-          onChange={(e) => setLastName(e.target.value)}
-          type="text"
-        />
-      </div>
-      <div>
-        <label>Email</label>
-        <input
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          type="email"
-        />
-      </div>
-      <div>
-        <label>Phone</label>
-        <input
-          value={phone}
-          onChange={(e) => setPhone(e.target.value)}
-          type="number"
-        />
-      </div>
-      <div>
-        <label>Phone</label>
-        <input
-          value={phone}
-          onChange={(e) => setPhone(e.target.value)}
-          type="number"
-        />
-      </div>
-      <div>
-        <label>Phone</label>
-        <input
-          value={phone}
-          onChange={(e) => setPhone(e.target.value)}
-          type="number"
-        />
-      </div>
-
-      <button>Add User</button>
-      <div>
-        <label>Phone</label>
-        <input
-          value={phone}
-          onChange={(e) => setPhone(e.target.value)}
-          type="number"
-        />
-      </div>
-
-      <button>Add User</button> */}
-      {/* <div>
-        <label>Email</label>
-        <input
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          type="email"
-        />
-      </div>
-      <div>
-        <label>Phone</label>
-        <input
-          value={phone}
-          onChange={(e) => setPhone(e.target.value)}
-          type="number"
-        />
-      </div>
-      <button>Add User</button> */}
-    </form>
+    <div>
+      <span>1</span>
+      <span>2</span>
+      <span>3</span>
+      <span>4</span>
+      <span>5</span>
+      <span>6</span>
+    </div>
   );
 };
 
