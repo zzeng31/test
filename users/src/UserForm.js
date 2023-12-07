@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 const UserForm = ({ onAddUser }) => {
   const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
   const [name, setName] = useState('');
   return (
     <form
@@ -34,6 +35,14 @@ const UserForm = ({ onAddUser }) => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           type="email"
+        />
+      </div>
+      <div>
+        <label>Phone</label>
+        <input
+          value={phone}
+          onChange={(e) => setPhone(e.target.value)}
+          type="number"
         />
       </div>
       <button>Add User</button>
