@@ -49,6 +49,24 @@ const UserForm = ({ onAddUser }) => {
           type="number"
         />
       </div>
+
+      <button>Add User</button> */}
+      {/* <div>
+        <label>Email</label>
+        <input
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          type="email"
+        />
+      </div>
+      <div>
+        <label>Phone</label>
+        <input
+          value={phone}
+          onChange={(e) => setPhone(e.target.value)}
+          type="number"
+        />
+      </div>
       <button>Add User</button> */}
     </form>
   );
