@@ -17,7 +17,7 @@ const UserForm = ({ onAddUser }) => {
         });
       }}
     >
-      <div>
+      {/* <div>
         <label>FirstName</label>
         <input
           value={firstName}
@@ -32,8 +32,8 @@ const UserForm = ({ onAddUser }) => {
           onChange={(e) => setLastName(e.target.value)}
           type="text"
         />
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <label>Email</label>
         <input
           value={email}
@@ -49,7 +49,7 @@ const UserForm = ({ onAddUser }) => {
           type="number"
         />
       </div>
-      <button>Add User</button>
+      <button>Add User</button> */}
     </form>
   );
 };
