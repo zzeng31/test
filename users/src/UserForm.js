@@ -13,6 +13,11 @@ const UserForm = ({ onAddUser }) => {
       <span>E</span>
       <span>F</span>
       <span>G</span>
+      <span>2</span>
+      <span>A</span>
+      <span>B</span>
+      <span>C</span>
+      <span>6</span>
     </div>
   );
 };
