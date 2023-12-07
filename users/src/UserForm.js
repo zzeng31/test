@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
 const UserForm = ({ onAddUser }) => {
-  const [isValid, setIsValid] = useState('');
   const [email, setEmail] = useState('');
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
