@@ -9,6 +9,8 @@ function App() {
   return (
     <div className="App">
       <UserForm onAddUser={onAddUser} />
+      <hr /> <hr />
+      <hr />
       <hr />
       <UserList users={users} />
     </div>
