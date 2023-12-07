@@ -14,7 +14,7 @@ const UserList = ({ users }) => {
       <thead>
         <tr>
           <th>First Name</th>
-          <th>Gmail</th>
+          <th>Gmails</th>
         </tr>
       </thead>
       <tbody>{users.length > 0 && renderedUsers}</tbody>
