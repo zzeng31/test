@@ -9,7 +9,7 @@ const UserForm = ({ onAddUser }) => {
     <div>
       <span>1</span>
       <span>3</span>
-      <span>A</span>
+      <span>4</span>
       <span>B</span>
       <span>C</span>
       <span>6</span>
