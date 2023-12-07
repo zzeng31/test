@@ -8,9 +8,14 @@ const UserForm = ({ onAddUser }) => {
   return (
     <div>
       <span>1</span>
-      <span>3</span>
-      <span>4</span>
-      <span>BBB</span>
+      <span>C</span>
+      <span>D</span>
+      <span>E</span>
+      <span>F</span>
+      <span>G</span>
+      <span>2</span>
+      <span>A</span>
+      <span>B</span>
       <span>C</span>
       <span>6</span>
     </div>
