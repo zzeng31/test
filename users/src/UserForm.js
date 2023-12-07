@@ -5,6 +5,7 @@ const UserForm = ({ onAddUser }) => {
   const [email, setEmail] = useState('');
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
+  const [phone, setPhone] = useState('');
   return (
     <form
       onSubmit={(e) => {
@@ -38,6 +39,14 @@ const UserForm = ({ onAddUser }) => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           type="email"
+        />
+      </div>
+      <div>
+        <label>Phone</label>
+        <input
+          value={phone}
+          onChange={(e) => setPhone(e.target.value)}
+          type="number"
         />
       </div>
       <button>Add User</button>
